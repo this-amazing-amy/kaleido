@@ -1,0 +1,34 @@
+{
+  "name": "kaleidos",
+  "version": "0.0.1",
+  "description": "simple webapp state management with streams and lenses",
+  "main": "kaleidos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PygmalionPolymorph/kaleidos.git"
+  },
+  "keywords": [
+    "state",
+    "fp",
+    "frp",
+    "web"
+  ],
+  "author": "PygmalionPolymorph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PygmalionPolymorph/kaleidos/issues"
+  },
+  "homepage": "https://github.com/PygmalionPolymorph/kaleidos#readme",
+  "dependencies": {
+    "flyd": "^0.2.4",
+    "ramda": "^0.24.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
