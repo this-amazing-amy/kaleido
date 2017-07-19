@@ -1,14 +1,14 @@
 {
-  "name": "kaleidos",
+  "name": "kaleido",
   "version": "0.0.1",
   "description": "simple webapp state management with streams and lenses",
-  "main": "kaleidos.js",
+  "main": "kaleido.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PygmalionPolymorph/kaleidos.git"
+    "url": "git+https://github.com/PygmalionPolymorph/kaleido.git"
   },
   "keywords": [
     "state",
@@ -16,12 +16,12 @@
     "frp",
     "web"
   ],
-  "author": "PygmalionPolymorph",
+  "author": "pygmalionpolymorph",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PygmalionPolymorph/kaleidos/issues"
+    "url": "https://github.com/PygmalionPolymorph/kaleido/issues"
   },
-  "homepage": "https://github.com/PygmalionPolymorph/kaleidos#readme",
+  "homepage": "https://github.com/PygmalionPolymorph/kaleido#readme",
   "dependencies": {
     "flyd": "^0.2.4",
     "ramda": "^0.24.1"

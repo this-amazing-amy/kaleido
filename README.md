@@ -1,15 +1,15 @@
-# Kaleidos
-Kaleidos is a small and easy to use library to manage state in web applications. It was designed specifically with component based view frameworks like [Mithril](https://mithril.js.org/) or [React](https://facebook.github.io/react/) in mind, but it can be used independently. 
+# Kaleido
+Kaleido is a small and easy to use library to manage state in web applications. It was designed specifically with component based view frameworks like [Mithril](https://mithril.js.org/) or [React](https://facebook.github.io/react/) in mind, but it can be used independently. 
 It makes use of techniques from functional programming and reactive programming, specifically relying on streams as data structures and lenses as a way to access these data structures' contents.
 
-Currently, the stream implementation is provided by the great library [flyd](https://github.com/paldepind/flyd) and Kaleidos depends on [Ramda](ramdajs.com/) as a functional programming utility belt, also providing the lens implementation. However, there are plans to abstract away at least the stream implementation and provide adapters for other popular libraries like _RxJS_ , _Most_ or _Kefir_
+Currently, the stream implementation is provided by the great library [flyd](https://github.com/paldepind/flyd) and Kaleido depends on [Ramda](ramdajs.com/) as a functional programming utility belt, also providing the lens implementation. However, there are plans to abstract away at least the stream implementation and provide adapters for other popular libraries like _RxJS_ , _Most_ or _Kefir_
 
 ## How to use
-### Instanciating a KaleidosScope
+### Instanciating a kaleidocope
 
-Kaleidos exports its main function `scope` as the default export, you can import it like so:
+Kaleido exports its main function `scope` as the default export, you can import it like so:
 ```js
-import scope from 'kaleidos';
+import scope from 'kaleido';
 ```
 
 You invoke the `scope` function passing in a path to the part of the state you want the scope to live in,  and an optional initial value to set the state to.
@@ -30,7 +30,7 @@ todos.get();
 ```
 And set the state to a new value with
 ```js
-todos.set(['Install Kaleidos', 'Be awesome']);
+todos.set(['Install Kaleido', 'Be awesome']);
 ```
 Also, you can execute a function taking the current state as an input and setting the state to its result:
 ```js
@@ -41,7 +41,7 @@ This is especially convenient when using curried functions, as offered by [Ramda
 ```js
 todos.do(append('Ride a unicorn'));
 ```
-You see, Kaleidos scopes work just like lenses on the state. And indeed Kaleidos uses Ramda lenses under the hood.
+You see, Kaleido scopes work just like lenses on the state. And indeed Kaleido uses Ramda lenses under the hood.
 
 But wait, there's more!
 
@@ -74,16 +74,16 @@ This will build a state of the following shape:
 }
 ```
 These states are then handled independently.
-However, you can import the whole state as a stream from Kaleidos. You can then use the `state` stream to inspect the whole app's state or subscribe to changes on all scopes.
+However, you can import the whole state as a stream from Kaleido. You can then use the `state` stream to inspect the whole app's state or subscribe to changes on all scopes.
 ```js
-import { state } from 'kaleidos';
+import { state } from 'kaleido';
 
 // Debug all state updates
 state.map(console.log);
 ```
 ## Future plans
 * Prevent scope collisions
-* Make Kaleidos State locally instanceable
+* Make Kaleido State locally instanceable
 * Abstract flyd dependency to be exchangeable with other stream libraries
 * Expand readme with architecture
 * React bindings
