@@ -31,7 +31,7 @@ todos.get();
 And set the state to a new value with
 ```js
 todos.set(['Install Kaleidos', 'Be awesome']);
-```js
+```
 Also, you can execute a function taking the current state as an input and setting the state to its result:
 ```js
 todos.do( state => state.concat(['Watch cute kitten videos']) );
