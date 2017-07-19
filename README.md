@@ -66,11 +66,11 @@ const notifications = scope(['notifications'], []);
 This will build a state of the following shape:
 ```js
 {
-	todos: {
-		list: [],
-		input: ''
-	},
-	notifications: []
+  todos: {
+    list: [],
+    input: ''
+  },
+  notifications: []
 }
 ```
 These states are then handled independently.
