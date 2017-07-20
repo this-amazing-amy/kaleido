@@ -6,7 +6,7 @@ Currently, the stream implementation is provided by the great library [flyd](htt
 
 ## How to use
 ### Installation
-You can install Kaleido from npm: `npm install kaleido;`.
+You can install Kaleido from npm: `npm install kaleido`.
 ### Instanciating a kaleidoscope
 
 Kaleido exports its main function `scope` as the default export, you can import it like so:
