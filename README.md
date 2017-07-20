@@ -4,6 +4,10 @@ It makes use of techniques from functional programming and reactive programming,
 
 Currently, the stream implementation is provided by the great library [flyd](https://github.com/paldepind/flyd) and Kaleido depends on [Ramda](ramdajs.com/) as a functional programming utility belt, also providing the lens implementation. However, there are plans to abstract away at least the stream implementation and provide adapters for other popular libraries like _RxJS_ , _Most_ or _Kefir_
 
+## Architecture
+
+![Kaleido Architecture](https://raw.githubusercontent.com/PygmalionPolymorph/kaleido/master/arch.png)
+
 ## How to use
 ### Installation
 You can install Kaleido from npm: `npm install kaleido`.
