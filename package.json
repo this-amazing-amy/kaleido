@@ -1,8 +1,8 @@
 {
   "name": "kaleido",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "simple webapp state management with streams and lenses",
-  "main": "kaleido.js",
+  "main": "src/kaleido.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
