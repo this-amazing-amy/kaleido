@@ -1,6 +1,7 @@
 # Kaleido
 
 [![Join the chat at https://gitter.im/kaleidostate/kaleido](https://badges.gitter.im/kaleidostate/Lobby.svg)](https://gitter.im/kaleidostate/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Kaleido is a small and easy to use library to manage state in web applications. It was designed specifically with component based view frameworks like [Mithril](https://mithril.js.org/) or [React](https://facebook.github.io/react/) in mind, but it can be used independently. 
 It makes use of techniques from functional programming and reactive programming, specifically relying on streams as data structures and lenses as a way to access these data structures' contents.
 
@@ -15,7 +16,7 @@ Consider adding a new functionality to your app, coming with its own piece of st
 
 Let's have a look at how the data flows in an app using Kaleido:
 
-![Kaleido Architecture](https://raw.githubusercontent.com/PygmalionPolymorph/kaleido/master/arch.png)
+![Kaleido Architecture](https://raw.githubusercontent.com/PygmalionPolymorph/kaleido/master/doc/arch.png)
 
 This diagram might seem a bit daunting at first, but trust me, it's easy to understand:
 The state of your app lives in one space, called _state_. The state is a stream and in it flow many instances of one big object. You guessed it: The state object.  A state might look somewhat similar to this:
