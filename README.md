@@ -8,6 +8,7 @@ Currently, the stream implementation is provided by the great library [flyd](htt
 
 In modern web development, the trend is going towards modularizing all the things. You have component based view frameworks, modular CSS architectures, even atomic design principles. But somehow, most state management tools come with a quite monolithic approach. State manipulating logic is often concentrated in one place.
 While it is advisable to represent your app's state in one central data structure for comprehensibility and maintainability reasons, the approach of having all state manipulation logic in one place is flawed, because it does not scale well.
+
 Consider adding a new functionality to your app, coming with its own piece of state to be stored, logic to manipulate this state, an own kind of view representation and its own styling.  Wouldn't it be great to only have to add code to a separate, additional and confined module, instead of having the view and styling in one file, and the logic in the other?  Essentially, this is what they call the "Open/Closed principle". You want your application be open for extension, but closed for modification.  And this is where Kaleido can come in handy.
 
 Let's have a look at how the data flows in an app using Kaleido:
