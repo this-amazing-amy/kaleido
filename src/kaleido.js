@@ -64,7 +64,7 @@ const scope = curry((part, initial) => {
 export const history = scan((hist, curr) => hist.concat([curr]), [], state);
 
 // Get the state update before the last one and set the current state to it.
-export const undo = (i = 0) => state(head(slice(-i - 2, -i - 1, history())));
+export const undo = (i = 1) => state(head(slice(-i - 1, -i, history())));
 
 
 export default scope;
