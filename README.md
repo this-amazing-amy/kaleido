@@ -134,3 +134,7 @@ In React, components get rerendered when their internal state changes. I am curr
 * Time travel
 * Abstract flyd dependency to be exchangeable with other stream libraries
 
+## Postamble
+If you have any feedback, spot a mistake or bug or just want to discuss
+anything about Kaleido, feel free to contact me in the Kaleido
+[gitter](http://gitter.im/kaleidostate/kaleido)!
