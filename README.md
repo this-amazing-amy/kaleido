@@ -16,7 +16,7 @@ Consider adding a new functionality to your app, coming with its own piece of st
 
 Let's have a look at how the data flows in an app using Kaleido:
 
-![Kaleido Architecture](https://raw.githubusercontent.com/PygmalionPolymorph/kaleido/master/arch.png)
+![Kaleido Architecture](https://raw.githubusercontent.com/PygmalionPolymorph/kaleido/master/src/arch.png)
 
 This diagram might seem a bit daunting at first, but trust me, it's easy to understand:
 The state of your app lives in one space, called _state_. The state is a stream and in it flow many instances of one big object. You guessed it: The state object.  A state might look somewhat similar to this:
