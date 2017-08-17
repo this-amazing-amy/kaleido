@@ -15,7 +15,7 @@ let stateMounts = {};
  * The scope handle also includes it mounted stream instance
  * so you can subscribe to it and react to changes.
  * */
-const scope = curry((part, initial) => {
+const scope = (part, initial) => {
   // The update stream of the partial.
   let update;
   // Check, if this partial is already present in the mountpoint store
@@ -58,7 +58,7 @@ const scope = curry((part, initial) => {
     get: viewState,
     do: overState,
   };
-});
+};
 
 // Monoidal fold over state updates as a list to represent the state's history.
 export const history = scan((hist, curr) => hist.concat([curr]), [], state);
