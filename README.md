@@ -1,6 +1,6 @@
 # Kaleido
 
-[![Join the chat at https://gitter.im/kaleidostate/kaleido](https://badges.gitter.im/kaleidostate/Lobby.svg)](https://gitter.im/kaleidostate/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/kaleidostate/kaleido](https://badges.gitter.im/kaleidostate/kaleido.svg)](https://gitter.im/kaleidostate/kaleido?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Kaleido is a small and easy to use library to manage state in web applications. It was designed specifically with component based view frameworks like [Mithril](https://mithril.js.org/) or [React](https://facebook.github.io/react/) in mind, but it can be used independently. 
 It makes use of techniques from functional programming and reactive programming, specifically relying on streams as data structures and lenses as a way to access these data structures' contents.
