@@ -1,5 +1,12 @@
 import { stream, scan } from 'flyd';
-import { lens, path, assocPath, curry, set, view, over, slice, head } from 'ramda';
+import lens from 'ramda/es/lens';
+import path from 'ramda/es/path';
+import assocPath from 'ramda/es/assocPath';
+import set from 'ramda/es/set';
+import view from 'ramda/es/view';
+import over from 'ramda/es/over';
+import slice from 'ramda/es/slice';
+import head from 'ramda/es/head';
 
 // Initialize global state as a stream
 export const state = stream({});
