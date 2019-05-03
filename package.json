@@ -1,11 +1,8 @@
 {
   "name": "kaleido",
-  "version": "0.2.1",
-  "description": "simple webapp state management with streams and lenses",
+  "version": "0.2.2",
+  "description": "Simple webapp state management with streams and lenses",
   "main": "src/kaleido.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PygmalionPolymorph/kaleido.git"
@@ -16,7 +13,7 @@
     "frp",
     "web"
   ],
-  "author": "pygmalionpolymorph",
+  "author": "PygmalionPolymorph",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PygmalionPolymorph/kaleido/issues"
